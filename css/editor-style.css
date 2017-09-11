@@ -1,0 +1,217 @@
+@charset "utf-8";
+/*
+	*Editor
+	*http://www.bgbk.org
+*/
+
+/*----------------------------------------------------------
+	Body
+----------------------------------------------------------*/
+html,
+body,
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#tinymce {
+	color: #333;
+	font: 12px/24px Hiragino Sans GB, Microsoft Yahei, SimSun, Helvetica, Arial, Sans-serif;
+	margin: 10px 15px;
+}
+
+/*----------------------------------------------------------
+	Context
+----------------------------------------------------------*/
+#tinymce p {
+	line-height: 28px;
+	margin: 0 0 10px;
+}
+
+#tinymce a {
+	color: #2D6DCC;
+}
+
+#tinymce a:hover {
+	text-decoration: underline;
+}
+
+#tinymce div,
+#tinymce form,
+#tinymce pre,
+#tinymce code {
+	margin-bottom: 10px;
+}
+
+#tinymce h1,
+#tinymce h2,
+#tinymce h3,
+#tinymce h4,
+#tinymce h5,
+#tinymce h6 {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #E6E6EB;
+}
+
+#tinymce h1 {
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+#tinymce h2 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+#tinymce h3 {
+	margin: 0 -15px 10px;
+	padding: 0 15px;
+	border-bottom: none;
+	font-size: 18px;
+	line-height: 38px;
+	background: #FAFAFA;
+}
+
+#tinymce h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+#tinymce h5 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#tinymce h6 {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#tinymce img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #E6E6EB;
+	margin-bottom: 10px;
+	padding: 2px;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	transition-property: border-color, box-shadow;
+	-webkit-transition-property: border-color, box-shadow;
+	-moz-transition-property: border-color, box-shadow;
+	-o-transition-property: border-color, box-shadow;
+}
+
+#tinymce img:hover {
+	border-color: #2D6DCC;
+	box-shadow: 0 0 2px #2D6DCC;
+	-moz-box-shadow: 0 0 2px #2D6DCC;
+}
+
+#tinymce strong, #tinymce b {
+	background: #F0F0F5;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 2px 8px;
+	font-size: .9375em;
+	font-weight: normal;
+}
+
+#tinymce .wp-caption {
+	border: 1px solid #E6E6EB;
+	max-width: 100%;
+}
+
+#tinymce .wp-caption:hover,
+#tinymce .wp-caption:hover p {
+	border-color: #CCC;
+	color: #333;
+}
+
+#tinymce .wp-caption img {
+	width: 100%;
+	margin-bottom: 0;
+	border: none;
+}
+
+#tinymce .wp-caption img:hover {
+	background: transparent;
+	box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+#tinymce .wp-caption .wp-caption-text {
+	background: #FAFAFA;
+	margin-bottom: 0;
+	line-height: 24px;
+	border-top: 1px solid #E6E6EB;
+	text-indent: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	padding: 5px 2px;
+}
+
+#tinymce blockquote {
+	margin: 0 0 10px;
+	width: 100%;
+	border: 1px solid #E6E6EB;
+	border-left-width: 8px;
+	padding: 10px 10px 0;
+}
+
+#tinymce hr {
+	border-top: 1px solid #E6E6EB;
+	margin: 0 -15px 10px;
+}
+
+#tinymce ol,
+#tinymce ul {
+	margin-bottom: 10px;
+	padding-left: 0;
+}
+
+#tinymce li {
+	list-style: circle inside;
+	margin-bottom: 10px;
+}
+
+#tinymce li:last-child {
+	margin-bottom: 0;
+}
+
+#tinymce ol li {
+	list-style-type: decimal;
+}
+
+#tinymce table {
+	width: 100%;
+	margin-bottom: 10px;
+	border: 1px solid #E6E6EB;
+}
+
+#tinymce table tr:nth-child(odd) {
+	background: #FAFAFA;
+}
+
+#tinymce table tr:last-child td {
+	border-bottom: none;
+}
+
+#tinymce table tr td {
+	border: solid #E6E6EB;
+	border-width: 0 1px 1px 0;
+	padding: 4px 8px;
+}
+
+#tinymce table tr td:last-child {
+	border-right: none;
+}
+
+#tinymce > *:last-child {
+	margin-bottom: 0;
+}

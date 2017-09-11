@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*
+	*IE8
+	*http://www.bgbk.org
+*/
+
+/*----------------------------------------------------------
+	Header
+----------------------------------------------------------*/
+#header .logo a {
+	background-image: none;
+	text-indent: 0;
+	width: auto;
+}
+
+#header_menu > li:hover {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#2EFFFFFF,endColorstr=#2EFFFFFF);
+}
+
+#header_menu > li.current-menu-item,
+#header_menu > li.current-menu-parent,
+#header_menu > li.current_page_item,
+#header_menu > li.current-post-ancestor {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#2E000000,endColorstr=#2E000000);
+}
+
+#header_menu li > a:after {
+	display: none;
+}
+
+/*----------------------------------------------------------
+	Post
+----------------------------------------------------------*/
+.related-posts > li .excerpt {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A8000000,endColorstr=#A8000000);
+}
+
+/*----------------------------------------------------------
+	Return top
+----------------------------------------------------------*/
+#return-top {
+	filter: Alpha(opacity=80);
+}
+
+#return-top:hover {
+	filter: Alpha(opacity=100);
+}
+
+/*----------------------------------------------------------
+	Footer
+----------------------------------------------------------*/
+#footer_menu > li > a:after {
+	display: none;
+}
